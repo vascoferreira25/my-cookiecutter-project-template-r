@@ -39,11 +39,11 @@ The directory structure of this project looks like this:
 
 You can include files by adding a code block and writing
 
+````
 ```
-\`\`\`
-{{"{{"}}#include ../{{cookiecutter.project_slug}}.Rproj{{"}}"}}
-\`\`\`
+\{{"{{"}}#include ../{{cookiecutter.project_slug}}.Rproj{{"}}"}}
 ```
+````
 
 Written by {{ cookiecutter.full_name }}.
 
