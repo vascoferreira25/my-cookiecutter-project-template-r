@@ -48,7 +48,7 @@ You can include files by adding a code block and writing
 ### This is how it looks
 
 ```
-\{{"{{"}}#include ../{{cookiecutter.project_slug}}.Rproj{{"}}"}}
+{{"{{"}}#include ../{{cookiecutter.project_slug}}.Rproj{{"}}"}}
 ```
 
 Written by {{ cookiecutter.full_name }}.
