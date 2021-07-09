@@ -93,3 +93,6 @@ target/
 # RStudio stuff
 .Rproj.user/
 .Rhistory
+
+# mdBook stuff
+/docs/build/

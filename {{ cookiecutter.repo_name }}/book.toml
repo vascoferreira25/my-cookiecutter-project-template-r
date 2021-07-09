@@ -1,0 +1,13 @@
+[book]
+title = "{{ cookiecutter.project_name }}"
+author = "{{ cookiecutter.full_name }}"
+description = "{{ cookiecutter.description }}"
+language = "en"
+multilingual = false
+src = "docs"
+
+[build]
+build-dir = "docs/build"
+
+[output.html]
+additional-css = ["docs/css/styles.css"]
