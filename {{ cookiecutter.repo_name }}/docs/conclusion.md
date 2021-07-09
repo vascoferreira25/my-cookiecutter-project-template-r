@@ -1,5 +1,5 @@
 # Conclusion
 
-Conclusion to {{ cookiecutter.project_name }}.
+Conclusion to `{{ cookiecutter.project_name }}`.
 
 {{ cookiecutter.description }}

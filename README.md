@@ -22,7 +22,7 @@ The directory structure of your new project looks like this:
 │   ├── processed      <- The final, canonical data sets for modeling.
 │   └── raw            <- The original, immutable data dump.
 │
-├── docs               <- Where the Mkdocs documentation will stay
+├── docs               <- Where the mdBook documentation will stay
 │
 ├── models             <- Trained and serialized models, model predictions, or model summaries
 │
@@ -37,5 +37,5 @@ The directory structure of your new project looks like this:
 │
 ├── {{cookiecutter.project_slug}}.Rproj <- r-project environment variables
 │
-├── mkdocs.yml         <- Settings for Mkdocs
+├── book.toml          <- Settings for mdBook
 ```
