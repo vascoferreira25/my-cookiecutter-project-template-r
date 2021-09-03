@@ -17,7 +17,8 @@ The directory structure of this project looks like this:
 │   ├── processed      <- The final, canonical data sets for modeling.
 │   └── raw            <- The original, immutable data dump.
 │
-├── docs               <- Where the mdBook documentation will stay
+├── docs               <- Where the build of the docs will stay
+├── docs-markdown      <- Where the mdBook documentation will stay
 │
 ├── models             <- Trained and serialized models, model predictions, or model summaries
 │

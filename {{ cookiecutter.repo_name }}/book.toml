@@ -4,10 +4,11 @@ author = "{{ cookiecutter.full_name }}"
 description = "{{ cookiecutter.description }}"
 language = "en"
 multilingual = false
-src = "docs"
+src = "docs-markdown"
 
 [build]
-build-dir = "docs/build"
+build-dir = "docs"
 
 [output.html]
-additional-css = ["docs/css/styles.css"]
+additional-css = ["docs-markdown/css/styles.css"]
+mathjax-support = true
